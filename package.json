@@ -1,0 +1,14 @@
+{
+  "name": "node-harmony-example",
+  "version": "0.0.0",
+  "description": "A sample app demonstrating how to run node with ES6 Harmony enabled on Heroku.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony --use_strict --harmony_generators index.js"
+  },
+  "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com/)",
+  "license": "ISC",
+  "engines": {
+    "node": "^0.11.9"
+  }
+}
